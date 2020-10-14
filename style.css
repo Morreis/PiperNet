@@ -1,0 +1,47 @@
+* { 
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+}
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 55px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #007765;
+}
+
+.header__top    {
+    background-color: #007765;
+    display: flex;
+    
+}
+
+.logo {
+    margin: 20px auto 19px 0;
+}
+
+.nav {
+    margin: 29px 0 27px auto;
+}
+
+
+.nav>ul {
+    display: flex;
+}
